@@ -5,7 +5,9 @@ A new Flutter project with Hive and API.
 ## Uygulama Ekranları 
 
 <div class="row">
-<img src="https://github.com/CanzzD/task_management_app/blob/f22903a0c8e06a84cde7cdabc78bb44037031840/home_view.png">
+<img src="https://github.com/CanzzD/task_management_app/blob/f22903a0c8e06a84cde7cdabc78bb44037031840/home_view.png" height="400"/>
+<img src="https://github.com/CanzzD/task_management_app/blob/f2598093ea9f668dfe4443efe6a0b75447aa22d8/new_task.png" height="400"/>
+<img src="https://github.com/CanzzD/task_management_app/blob/f2598093ea9f668dfe4443efe6a0b75447aa22d8/update_task.png" height="400"/>
 
 
 This project is a starting point for a Flutter application.
