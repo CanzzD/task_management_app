@@ -22,15 +22,16 @@ GetX kullanımı için bir "task_controller" oluşturulmuştur.<br/>
 
 Api entegrasyonu, uygulamada Hive yerel depolama kütüphanesi kullanıldığından hem Hive hem de Api için çalışan hybrid bir kodlama ile yapılmıştır.<br/>
 Verilerin json dönüşümleri yapılarak ekranlarda kullanılmıştır.<br/>
+Ve CRUD işlemleri burada yapılmıştır.<br/>
 "final String apiUrl = 'https://671215e34eca2acdb5f706e5.mockapi.io/api/v1/tasks';"<br/>
 
-##GET
+## Read
 final response = await http.get(Uri.parse(apiUrl));<br/>
-##GET
+## Create
 final response = await http.post(Uri.parse(apiUrl));<br/>
-##GET
+## Update
 final response = await http.put(Uri.parse(apiUrl));<br/>
-##GET
+## Delete
 final response = await http.delete(Uri.parse(apiUrl));<br/>
 
 
