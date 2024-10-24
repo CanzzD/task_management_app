@@ -13,13 +13,23 @@ Uygulama, açılış ekranı, yeni görev ekleme ekranı ve görev güncelleme e
 Açılış ekranında sağ altta bulunan buton yeni görev ekleme ekranına geçiş yapar.<br/>
 Açılış ekranında sol altta bulunan checkbox ekrandaki görevlerin durumuna göre filtreleme yapar.<br/>
 
-This project is a starting point for a Flutter application.
+## State Management
 
-A few resources to get you started if this is your first Flutter project:
+Uygulamada state management için hem GetX hem de Stateful Widget(setState()) lar kullanılmıştır.<br/>
+GetX kullanımı için bir "task_controller" oluşturulmuştur.<br/>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## API Entegrasyonu
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Api entegrasyonu, uygulamada Hive yerel depolama kütüphanesi kullanıldığından hem Hive hem de Api için çalışan hybrid bir kodlama ile yapılmıştır.<br/>
+Verilerin json dönüşümleri yapılarak ekranlarda kullanılmıştır.<br/>
+"final String apiUrl = 'https://671215e34eca2acdb5f706e5.mockapi.io/api/v1/tasks';"
+##GET
+final response = await http.get(Uri.parse(apiUrl));<br/>
+##GET
+final response = await http.post(Uri.parse(apiUrl));<br/>
+##GET
+final response = await http.put(Uri.parse(apiUrl));<br/>
+##GET
+final response = await http.delete(Uri.parse(apiUrl));<br/>
+
+
