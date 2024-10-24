@@ -4,7 +4,9 @@ A new Flutter project with Hive and API.
 
 ## Uygulama Ekranları 
 
-![image alt](https://github.com/CanzzD/task_management_app/blob/f22903a0c8e06a84cde7cdabc78bb44037031840/home_view.png)
+<div class="row">
+<img src="https://github.com/CanzzD/task_management_app/blob/f22903a0c8e06a84cde7cdabc78bb44037031840/home_view.png">
+
 
 This project is a starting point for a Flutter application.
 
