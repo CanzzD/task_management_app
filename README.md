@@ -30,8 +30,8 @@ final response = await http.get(Uri.parse(apiUrl));<br/>
 ## Create
 final response = await http.post(Uri.parse(apiUrl));<br/>
 ## Update
-final response = await http.put(Uri.parse(apiUrl));<br/>
+final response = await http.put(Uri.parse('$apiUrl/${task.id}'));<br/>
 ## Delete
-final response = await http.delete(Uri.parse(apiUrl));<br/>
+final response = await http.delete(Uri.parse('$apiUrl/$id'));<br/>
 
 
